@@ -1,8 +1,12 @@
 import React from 'react';
+import { GlobalStyles } from './styles/global'
 
 function App() {
   return (
-    <h1>tesla</h1>
+    <>
+      <h1>tesla</h1>
+      <GlobalStyles />
+    </>
   );
 }
 
