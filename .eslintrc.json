@@ -25,6 +25,8 @@
     "prettier"
   ],
   "rules": {
+    "react/jsx-wrap-multilines": "off",
+    "react/jsx-props-no-spreading": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
