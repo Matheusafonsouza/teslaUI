@@ -1,10 +1,11 @@
 import React from 'react';
+import Page from './components/Page';
 import { GlobalStyles } from './styles/global';
 
 const App: React.FC = () => {
   return (
     <>
-      <h1>tesla</h1>
+      <Page />
       <GlobalStyles />
     </>
   );
